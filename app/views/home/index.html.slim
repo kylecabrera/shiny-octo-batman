@@ -1,0 +1,42 @@
+.container
+
+	.masthead
+	    h3.muted Test site
+	    .navbar
+	    	.navbar-inner
+	     		.container
+	          		ul.nav
+	            		li=link_to "Home","#"
+	             		li=link_to "Projects","#"
+	             		li=link_to "Services","#"
+	             		li=link_to "Downloads","#"
+	             		li=link_to "About","#"
+	             		li=link_to "Contact","#"
+	.jumbotron
+        h1 Welcome to Lake County Organics!
+        p.lead We are a collective of local farmers dedicated to organic, sustainable and healthy foods.
+       	=link_to "Let's get started!","#", :class=>"btn btn-large btn-success"
+    hr
+
+    .row-fluid
+    	.span4
+        	h2 Delicious Food
+          	p We're dedicated to bringing you the freshest produce in the county. With dozens of seasonal varietals you'll never be short on recipes that will make you the envy of the neighborhood.
+          	p 
+      			=link_to "View Deails", "#", :class=>"btn"
+       
+        .span4
+            h2 Positive Living
+          	p We are what we eat and we feel that what we are matters.  Our farms, our growing practices and our community are all a reflection of that.  We wish to make a positive impact on all our lives in simple ways and you can too!
+            p
+            	=link_to "View Details", "#", :class=>"btn"
+
+        .span4
+         	h2 Sustainable Future
+         	p It doesn't makes sense to us to sacrifice everything for one good harvest.  We're committed to making a lasting impact by leaving zero impact.
+         	p
+         		=link_to "View Details", "#", :class=>"btn"
+    hr
+
+    .footer
+    	p&copy; Company 2013
